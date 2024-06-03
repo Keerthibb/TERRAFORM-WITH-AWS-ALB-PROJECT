@@ -15,7 +15,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/Keerthibb/Terraform-Jenkins-Bash-Ansible-Docker-CI-CD-Pipeline.git'
+                git branch: 'main', url: 'https://github.com/Keerthibb/TERRAFORM-WITH-AWS-ALB-PROJECT.git'
             }
         }
         stage('Terraform init') {
