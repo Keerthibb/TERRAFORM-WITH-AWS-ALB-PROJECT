@@ -1,0 +1,8 @@
+region            = "us-east-1"
+cidr              = "10.0.0.0/16"
+availability1_zone = "us-east-1a"
+availability2_zone = "us-east-1b"
+public_cidr       = "10.0.0.0/24"
+public1_cidr      = "10.0.1.0/24"
+ami               = "ami-080e1f13689e07408"
+instance_type     = "t2.micro"
